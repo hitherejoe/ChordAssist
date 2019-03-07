@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df56dd3e-4862-45bf-814a-c6ce95b62c33" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ActionsServlet.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agent.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ActionsAWSHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ActionsServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyActionsApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/resources_en_US.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/resources_en_US.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/MyActionsAppTest.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,7 +59,7 @@
         <counts>
           <entry key="java" value="17" />
           <entry key="kt" value="2087" />
-          <entry key="md" value="242" />
+          <entry key="md" value="243" />
           <entry key="properties" value="702" />
         </counts>
       </usages-collector>
@@ -75,7 +67,7 @@
         <counts>
           <entry key="JAVA" value="17" />
           <entry key="Kotlin" value="2087" />
-          <entry key="PLAIN_TEXT" value="242" />
+          <entry key="PLAIN_TEXT" value="243" />
           <entry key="Properties" value="702" />
         </counts>
       </usages-collector>
@@ -126,11 +118,7 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -893,7 +881,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.18240343" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.18240343" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Build Variants" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
@@ -903,7 +891,7 @@
       <window_info anchor="bottom" id="Run" order="0" />
       <window_info anchor="bottom" id="TODO" order="1" />
       <window_info anchor="bottom" id="Debug" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="3" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Flutter Performance" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="6" />
@@ -1087,11 +1075,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
