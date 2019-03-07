@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="myactions" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="android-gradle" name="Android-Gradle">
+      <configuration>
+        <option name="GRADLE_PROJECT_PATH" value=":" />
+      </configuration>
+    </facet>
+    <facet type="java-gradle" name="Java-Gradle">
+      <configuration>
+        <option name="BUILD_FOLDER_PATH" value="$MODULE_DIR$/../../build" />
+        <option name="BUILDABLE" value="true" />
+      </configuration>
+    </facet>
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="JVM 1.8" useProjectSettings="false">
+        <compilerSettings />
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../build/classes/kotlin/main" />
+          <option name="classpath" value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-lambda-java-core/1.2.0/d2b13f39c8052d71328a8d127a2a216bd6d62143/aws-lambda-java-core-1.2.0.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/com.google.actions/actions-on-google/1.0.0/bde3e9fdea60fec60f1a2d68966bca5ba1ece36b/actions-on-google-1.0.0.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.3.11/dd9bff00d6cfca58b6c1fe89be8e0678e35cf35f/kotlin-stdlib-jdk8-1.3.11.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/com.googlecode.json-simple/json-simple/1.1.1/c9ad4a0850ab676c5c64461a05ca524cdfff59f1/json-simple-1.1.1.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-admin/6.7.0/106669226da6392dca4bae76ab8175dc991d4636/firebase-admin-6.7.0.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.1.0/3cd63d075497751784b2fa84be59432f4905bf7c/javax.servlet-api-3.1.0.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.11/4839661cf6ce3c14b65ed7dcf5b9249b44ecca16/kotlin-stdlib-jdk7-1.3.11.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.11/4cbc5922a54376018307a731162ccaf3ef851a39/kotlin-stdlib-1.3.11.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client-gson/1.25.0/57c2625fcd249024b931f31f7719826f4b46a538/google-api-client-gson-1.25.0.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-gson/1.25.0/b73df76fb315b1cc8be1a26240954bde40c26109/google-http-client-gson-1.25.0.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/com.google.cloud/google-cloud-storage/1.43.0/6358bbf7a173027274aacc65789dd46c06451539/google-cloud-storage-1.43.0.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/com.google.cloud/google-cloud-firestore/0.61.0-beta/57925e99afbe7a7155523ea6e74cbd7081257c59/google-cloud-firestore-0.61.0-beta.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/com.google.cloud/google-cloud-core-http/1.43.0/a81185d18d017f68b14e4f5f1047b4e8f4709632/google-cloud-core-http-1.43.0.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/com.google.cloud/google-cloud-core-grpc/1.43.0/58b4839ab48c06592f738ddd156ef81ecd19bd84/google-cloud-core-grpc-1.43.0.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/com.google.cloud/google-cloud-core/1.43.0/a28eb94f2410e20ae5b663e943b8465078a4bc02/google-cloud-core-1.43.0.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java-util/3.6.0/3680d0042d4fe0b95ada844ff24da0698a7f0773/protobuf-java-util-3.6.0.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/com.google.api/gax-httpjson/0.47.0/d096f3142eb3adbf877588d1044895d148d9efcb/gax-httpjson-0.47.0.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-netty-shaded/1.13.1/ccdc4f2c2791d93164c574fbfb90d614aa0849ae/grpc-netty-shaded-1.13.1.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/com.google.api/gax-grpc/1.30.0/ada82a4a0c020807e1c1a674b18658374264e401/gax-grpc-1.30.0.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-stub/1.13.1/2fc6e85e459ac522a3d81a78add8b6695f7525f1/grpc-stub-1.13.1.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-auth/1.13.1/96327e5774b7e0ed7f47043af9ff4fbc7f00f36/grpc-auth-1.13.1.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/io.opencensus/opencensus-contrib-grpc-util/0.15.0/bd86852303d3e4610ef44c007a6e3a728d95568f/opencensus-contrib-grpc-util-0.15.0.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-protobuf/1.13.1/832f531a79249af2d9c1d50168301ba2bc45b54b/grpc-protobuf-1.13.1.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-protobuf-lite/1.13.1/6ca13585100ad99e1c6140a7c8138dd96596aaf5/grpc-protobuf-lite-1.13.1.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-core/1.13.1/74f5300e1e4d5c2abc0e4fc927d24f4f593c5a7d/grpc-core-1.13.1.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.4/d0de1ca9b69e69d1d497ee3c6009d015f64dad57/gson-2.8.4.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/com.google.api/gax/1.30.0/58fa2feb11b092be0a6ebe705a28736f12374230/gax-1.30.0.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/com.google.auth/google-auth-library-oauth2-http/0.11.0/576d6ae74c10e6a0d3f30a97ef59499473b02175/google-auth-library-oauth2-http-0.11.0.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client/1.25.0/e7ff725e89ff5dcbed107be1a24e8102ae2441ee/google-api-client-1.25.0.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-jackson2/1.25.0/7c5c89bd4d0d34d9f1cb3396e8da6233e5074b5c/google-http-client-jackson2-1.25.0.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client/1.25.0/c9ee14e8b095b4b301b28d57755cc482b8d6f39f/google-oauth-client-1.25.0.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-appengine/1.24.1/8535031ae10bf6a196e68f25e10c0d6382699cb6/google-http-client-appengine-1.24.1.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-jackson/1.24.1/2c88e77c14effdda76f02a0eac968de74e0bd4e/google-http-client-jackson-1.24.1.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client/1.25.0/5fb16523c393bfe0210c29db44742bd308311841/google-http-client-1.25.0.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/org.json/json/20180130/26ba2ec0e791a32ea5dfbedfcebf36447ee5b12c/json-20180130.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-log4j12/1.7.25/110cefe2df103412849d72ef7a67e4e91e4266b4/slf4j-log4j12-1.7.25.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.3/eecdac8c86bc84b4bdfc24371ba8c785a1fc552/commons-lang-2.3.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/junit/junit/4.10/e4f1766ce7404a08f45d859fb9c226fc9e41a861/junit-4.10.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/com.google.api.grpc/proto-google-cloud-firestore-v1beta1/0.26.0/69030565c34affbbcee0df2a79e0a9d97692320a/proto-google-cloud-firestore-v1beta1-0.26.0.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/com.google.api.grpc/proto-google-iam-v1/0.12.0/ea312c0250a5d0a7cdd1b20bc2c3259938b79855/proto-google-iam-v1-0.12.0.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/com.google.api/api-common/1.7.0/ea59fb8b2450999345035dec8a6f472543391766/api-common-1.7.0.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/io.opencensus/opencensus-contrib-http-util/0.15.0/d88690591669d9b5ba6d91d9eac7736e58ccf3da/opencensus-contrib-http-util-0.15.0.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/io.opencensus/opencensus-contrib-grpc-metrics/0.12.3/a4c7ff238a91b901c8b459889b6d0d7a9d889b4d/opencensus-contrib-grpc-metrics-0.12.3.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/io.opencensus/opencensus-api/0.15.0/9a098392b287d7924660837f4eba0ce252013683/opencensus-api-0.15.0.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/20.0/89507701249388e1ed5ddcf8c41f4ce1be7831ef/guava-20.0.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http/4.1.22.Final/3805f3ca0d57630200defc7f9bb6ed3382dcb10b/netty-codec-http-4.1.22.Final.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.1.22.Final/a3a16b17d5a5ed6f784b0daba95e28d940356109/netty-handler-4.1.22.Final.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.1.22.Final/239c0af275952e70bb4adf7cf8c03d88ddc394c9/netty-codec-4.1.22.Final.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.22.Final/3bd455cd9e5e5fb2e08fd9cd0acfa54c079ca989/netty-transport-4.1.22.Final.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.11/d8b8e746e279f1c4f5e08bc14a96b82e6bb1de02/kotlin-stdlib-common-1.3.11.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/5af35056b4d257e4b64b9e8069c0746e8b08629f/log4j-1.2.17.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.1/860340562250678d1a344907ac75754e259cdb14/hamcrest-core-1.1.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.5/1603dfd56ebcd583ccdf337b6c3984ac55d89e58/httpclient-4.5.5.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.1/ed28ded51a8b1c6b112568def5f4b455e6809019/j2objc-annotations-1.1.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/com.google.auth/google-auth-library-credentials/0.11.0/75f79364e9d4977c6462446fcccf83d2f6eeb69f/google-auth-library-credentials-0.11.0.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/com.google.apis/google-api-services-storage/v1-rev135-1.24.1/28d3d391dfc7e7e7951760708ad2f48cecacf38f/google-api-services-storage-v1-rev135-1.24.1.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/com.google.auto.value/auto-value/1.4/6d1448fcd13074bd3658ef915022410b7c48343b/auto-value-1.4.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.1.22.Final/15e964a2095031364f534a6e21977f5ee9ca32a9/netty-buffer-4.1.22.Final.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver/4.1.22.Final/b5484d17a97cb57b07d2a1ac092c249e47234c17/netty-resolver-4.1.22.Final.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.9/a86ce739e5a7175b4b234c290a00a5fdb80957a0/httpcore-4.4.9.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.10/4b95f4897fa13f2cd904aee711aeafc0c5295cd8/commons-codec-1.10.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.9.6/4e393793c37c77e042ccc7be5a914ae39251b365/jackson-core-2.9.6.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.9.2/36d6e77a419cb455e6fd5909f6f96b168e21e9d0/joda-time-2.9.2.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/com.google.api.grpc/proto-google-common-protos/1.12.0/1140cc74df039deb044ed0e320035e674dc13062/proto-google-common-protos-1.12.0.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.6.0/5333f7e422744d76840c08a106e28e519fbe3acd/protobuf-java-3.6.0.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-context/1.13.1/e8d8407217ffe43996700f667fa1f6bee0a8c19a/grpc-context-1.13.1.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/org.threeten/threetenbp/1.3.3/3ea31c96676ff12ab56be0b1af6fff61d1a4f1f2/threetenbp-1.3.3.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.1.22.Final/56ff4deca53fc791ed59ac2b72eb6718714a4de9/netty-common-4.1.22.Final.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-core-asl/1.9.11/e32303ef8bd18a5c9272780d49b81c95e05ddf43/jackson-core-asl-1.9.11.jar:/Users/joebirch/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.1.2/6dcc08f90f678ac33e5ef78c3c752b6f59e63e0c/error_prone_annotations-2.1.2.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="myactions" />
+          <option name="jvmTarget" value="1.8" />
+          <option name="addCompilerBuiltIns" value="true" />
+          <option name="loadBuiltInsFromDependencies" value="true" />
+          <option name="languageVersion" value="1.3" />
+          <option name="apiVersion" value="1.3" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+          <option name="pluginClasspaths">
+            <array />
+          </option>
+          <option name="errors">
+            <ArgumentParseErrors />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/../../build/classes/java/main" />
+    <output-test url="file://$MODULE_DIR$/../../build/classes/java/test" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../..">
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/kotlin" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/test/kotlin" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/test/resources" type="java-test-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../../.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: com.amazonaws:aws-lambda-java-core:1.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.actions:actions-on-google:1.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.11" level="project" />
+    <orderEntry type="library" name="Gradle: com.googlecode.json-simple:json-simple:1.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-admin:6.7.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.servlet:javax.servlet-api:3.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.11" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.3.11" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.api-client:google-api-client-gson:1.25.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.http-client:google-http-client-gson:1.25.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.cloud:google-cloud-storage:1.43.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.cloud:google-cloud-firestore:0.61.0-beta" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.cloud:google-cloud-core-http:1.43.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.cloud:google-cloud-core-grpc:1.43.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.cloud:google-cloud-core:1.43.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.protobuf:protobuf-java-util:3.6.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.api:gax-httpjson:0.47.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.grpc:grpc-netty-shaded:1.13.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.api:gax-grpc:1.30.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.grpc:grpc-stub:1.13.1" level="project" />
+    <orderEntry type="library" name="Gradle: io.grpc:grpc-auth:1.13.1" level="project" />
+    <orderEntry type="library" name="Gradle: io.opencensus:opencensus-contrib-grpc-util:0.15.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.grpc:grpc-protobuf:1.13.1" level="project" />
+    <orderEntry type="library" name="Gradle: io.grpc:grpc-protobuf-lite:1.13.1" level="project" />
+    <orderEntry type="library" name="Gradle: io.grpc:grpc-core:1.13.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.gson:gson:2.8.4" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.api:gax:1.30.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.auth:google-auth-library-oauth2-http:0.11.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.api-client:google-api-client:1.25.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.http-client:google-http-client-jackson2:1.25.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.oauth-client:google-oauth-client:1.25.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.http-client:google-http-client-appengine:1.24.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.http-client:google-http-client-jackson:1.24.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.http-client:google-http-client:1.25.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.json:json:20180130" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-log4j12:1.7.25" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.25" level="project" />
+    <orderEntry type="library" name="Gradle: commons-lang:commons-lang:2.3" level="project" />
+    <orderEntry type="library" name="Gradle: junit:junit:4.10" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.api.grpc:proto-google-cloud-firestore-v1beta1:0.26.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.api.grpc:proto-google-iam-v1:0.12.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.api:api-common:1.7.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.opencensus:opencensus-contrib-http-util:0.15.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.opencensus:opencensus-contrib-grpc-metrics:0.12.3" level="project" />
+    <orderEntry type="library" name="Gradle: io.opencensus:opencensus-api:0.15.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.guava:guava:20.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec-http:4.1.22.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-handler:4.1.22.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec:4.1.22.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport:4.1.22.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.3.11" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" name="Gradle: log4j:log4j:1.2.17" level="project" />
+    <orderEntry type="library" name="Gradle: org.hamcrest:hamcrest-core:1.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.httpcomponents:httpclient:4.5.5" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.j2objc:j2objc-annotations:1.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.auth:google-auth-library-credentials:0.11.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.apis:google-api-services-storage:v1-rev135-1.24.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.auto.value:auto-value:1.4" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-buffer:4.1.22.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-resolver:4.1.22.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.httpcomponents:httpcore:4.4.9" level="project" />
+    <orderEntry type="library" name="Gradle: commons-logging:commons-logging:1.2" level="project" />
+    <orderEntry type="library" name="Gradle: commons-codec:commons-codec:1.10" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.9.6" level="project" />
+    <orderEntry type="library" name="Gradle: joda-time:joda-time:2.9.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.api.grpc:proto-google-common-protos:1.12.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.protobuf:protobuf-java:3.6.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.grpc:grpc-context:1.13.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.threeten:threetenbp:1.3.3" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-common:4.1.22.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.codehaus.jackson:jackson-core-asl:1.9.11" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.errorprone:error_prone_annotations:2.1.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.12" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: aws-lambda-java-core-1.2.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: actions-on-google-1.0.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: kotlin-stdlib-jdk8-1.3.11" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: json-simple-1.1.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: firebase-admin-6.7.0" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="Gradle: javax.servlet-api-3.1.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: kotlin-stdlib-jdk7-1.3.11" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: kotlin-stdlib-1.3.11" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: google-api-client-gson-1.25.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: google-http-client-gson-1.25.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: google-cloud-storage-1.43.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: google-cloud-firestore-0.61.0-beta" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: google-cloud-core-http-1.43.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: google-cloud-core-grpc-1.43.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: google-cloud-core-1.43.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: protobuf-java-util-3.6.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: gax-httpjson-0.47.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: grpc-netty-shaded-1.13.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: gax-grpc-1.30.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: grpc-stub-1.13.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: grpc-auth-1.13.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: opencensus-contrib-grpc-util-0.15.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: grpc-protobuf-1.13.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: grpc-protobuf-lite-1.13.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: grpc-core-1.13.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: gson-2.8.4" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: gax-1.30.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: google-auth-library-oauth2-http-0.11.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: google-api-client-1.25.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: google-http-client-jackson2-1.25.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: google-oauth-client-1.25.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: google-http-client-appengine-1.24.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: google-http-client-jackson-1.24.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: google-http-client-1.25.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: json-20180130" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: slf4j-log4j12-1.7.25" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: slf4j-api-1.7.25" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: commons-lang-2.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: junit-4.10" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: proto-google-cloud-firestore-v1beta1-0.26.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: proto-google-iam-v1-0.12.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: api-common-1.7.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: opencensus-contrib-http-util-0.15.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: opencensus-contrib-grpc-metrics-0.12.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: opencensus-api-0.15.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: guava-20.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: netty-codec-http-4.1.22.Final" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: netty-handler-4.1.22.Final" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: netty-codec-4.1.22.Final" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: netty-transport-4.1.22.Final" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: kotlin-stdlib-common-1.3.11" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: annotations-13.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: log4j-1.2.17" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: hamcrest-core-1.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jsr305-3.0.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: httpclient-4.5.5" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: j2objc-annotations-1.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: google-auth-library-credentials-0.11.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: google-api-services-storage-v1-rev135-1.24.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: auto-value-1.4" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: netty-buffer-4.1.22.Final" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: netty-resolver-4.1.22.Final" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: httpcore-4.4.9" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: commons-logging-1.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: commons-codec-1.10" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jackson-core-2.9.6" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: joda-time-2.9.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: proto-google-common-protos-1.12.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: protobuf-java-3.6.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: grpc-context-1.13.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: threetenbp-1.3.3" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: netty-common-4.1.22.Final" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: jackson-core-asl-1.9.11" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: error_prone_annotations-2.1.2" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="Gradle: junit-4.12" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="Gradle: hamcrest-core-1.3" level="project" />
+  </component>
+</module>
